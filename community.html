@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/Blueness.png">
+  
+  <title>Blueness | Community</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>  
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    $(document).ready(function(){
+      $("#myModal").modal('show');
+    });
+  </script>
+
+</head>
+<body>
+    <nav>
+      <ul>
+          <li><a href="index.html" class="active-page">Home</a></li>
+          <li><a href="saved_ones.html">Saved ones</a></li>
+          <li><a href="lefted.html">Friends who left us</a></li>
+          <li><a href="community.html">Community</a></li>
+      </ul>
+  </nav>
+  <div class="main">
+    <div class="head">
+      <h2 class="blue-text">Join our community</h2>
+
+      <p class="light-yellow">Be a part of soemthing big!
+      </p>
+      <p class="grey-text">
+        Gain access to experts who can help you on the continuance of your journey<br> 
+        Perfect for anyone who is serious about achieving a higher level of living.
+      </p>
+    </div>
+    
+    <div class="left">
+        <div class="left-content">
+          <div class="content-head">Monthly Subscription</div>
+      
+          <span id="price">&dollar;15</span> <span class="small-text">per month</span>
+      
+          <p>Full access for less than &dollar;1 a day</p>
+      
+        </div>
+        <button class="signup" type="submit"><a href="">Sign Up</a></button>
+    </div>
+    
+    <div class="right">
+        <div class="content-head">Why Us</div>
+          <small>
+              Lectures by experts
+            <br>Peers review
+            <br>Mental exercises
+            <br>Awareness courses
+            <br>Community forum
+            <br>24-hour special care
+            <br>Nature events every week
+          </small>
+    </div> 
+  </div>
+
+  <div id="myModal" class="modal fade">
+  <div class="modal-dialog modal-newsletter">
+    <div class="modal-content">
+      <form action="/examples/actions/confirmation.php" method="post">
+        <div class="modal-header">
+          <h4>Subscribe to our newsletter</h4>  
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span>&times;</span></button>
+        </div>
+        <div class="modal-body">          
+          <p>Signup for our weekly newsletter to get the latest news, updates and amazing offers delivered directly in your inbox.</p>
+          <div class="input-group">
+            <input type="email" class="form-control" placeholder="Enter your email" required>
+            <div class="input-group-append">
+              <input type="submit" class="btn btn-primary" value="Subscribe">
+            </div>
+          </div>
+        </div>
+      </form>     
+    </div>
+  </div>
+</div>
+  
+  <footer>
+    <small class="attribution grey-text">
+      Pictorial idea from <a class="light-yellow" href="https://www.frontendmentor.io?ref=challenge" target="_blank"> Front-end mentor</a>.
+      Coded by <a class="light-yellow" href="https://github.com/sananqsh">Sanan</a>!
+    </small>
+  </footer>
+</body>
+</html>
